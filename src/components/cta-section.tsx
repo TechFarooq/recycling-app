@@ -13,7 +13,7 @@ export default function CTASection() {
             Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
             dolor sit amet.
           </P>
-          <Button variant="secondary">Let's talk</Button>
+          <Button variant="secondary">Let&rsquo;s talk</Button>
         </div>
       </Wrapper>
     </section>
