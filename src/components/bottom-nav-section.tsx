@@ -17,7 +17,7 @@ export default function BottomNavSection() {
         <div className="flex flex-col md:flex-row justify-between">
           <div className="col">
             <div className="icon">
-              <Image height={100} width={200} src="/logo-2.png" alt={""} />
+              <Image height={100} width={200} src="/logo-2.png" alt="" />
             </div>
             <div className="mt-5">
               <Navigation />
@@ -26,11 +26,10 @@ export default function BottomNavSection() {
           </div>
           <div className="flex justify-between items-end">
             <MobileMenuToggle onToggle={toggle} />
-
             <div>
               <Link href="/">
                 <h3 className="mt-5 text-right text-xl xs:text-2xl font-unbounded font-light">
-                  Your company needs it. <br /> Let's talk.
+                  Your company needs it. <br /> Let&rsquo;s talk.
                 </h3>
               </Link>
               <SocialIcons />
@@ -41,3 +40,4 @@ export default function BottomNavSection() {
     </section>
   );
 }
+
