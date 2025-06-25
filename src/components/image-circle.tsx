@@ -14,9 +14,13 @@ export default function ImageCircle({
 }) {
   return (
     <div
-      className={cn("relative w-20 h-20  rounded-full overflow-hidden", {
-        "md:h-28 md:w-28": size === "fluid",
-      })}
+      className={cn(
+        "relative w-20 h-20 rounded-full overflow-hidden",
+        {
+          "md:h-28 md:w-28": size === "fluid",
+        },
+        className
+      )}
     >
       <Image fill src={src} className="object-cover" alt={alt} />
     </div>
